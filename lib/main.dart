@@ -13,7 +13,9 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Flutter Demo',
       theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(seedColor: const Color.fromARGB(255, 183, 58, 58)),
+        colorScheme: ColorScheme.fromSeed(
+          seedColor: const Color.fromARGB(255, 183, 58, 58),
+        ),
       ),
       home: const MyHomePage(title: 'Do.lk Home Page'),
     );
@@ -49,9 +51,7 @@ class _MyHomePageState extends State<MyHomePage> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
-            const Text(
-              'Do.lk',
-            ),
+            const Text('Haritha Nagare mal kumari awillaa!!'),
             Text(
               '$_counter',
               style: Theme.of(context).textTheme.headlineMedium,
